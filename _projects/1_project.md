@@ -1,35 +1,27 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Contrary Motion
+description: Funky Third Person Co-op Shooter
+img: assets/img/CMTHUMB.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+"Contrary Motion is a funky and stylish co-op puzzle shooter, borrowing from the aesthetics of disco.
+Taking on the role of "funky bandits", players must work together clearing hordes of enemies and solving puzzles to raise their score. 
+This game features, casual couch action gameplay and physics based push and pull mechanics. "
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CMPIC1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CMPIC2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CMPIC3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
